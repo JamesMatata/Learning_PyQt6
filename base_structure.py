@@ -1,8 +1,8 @@
-from PyQt6.QtWidgets import QApplication, QMainWindow
+from PyQt6.QtWidgets import QApplication, QWidget
 from PyQt6.QtGui import QIcon
 import sys
 
-class window(QMainWindow):
+class window(QWidget):
     def __init__(self):
         super().__init__()
 
